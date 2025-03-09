@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.rubix.redfile.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinAbstractBlockState",
+    "MixinEntity",
+    "MixinMinecraftServer",
+    "MixinPlayerEntity",
+    "MixinServerTickManager",
+    "MixinServerWorld",
+    "MixinWorld",
+    "MixinWorldTickScheduler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
